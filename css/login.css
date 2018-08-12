@@ -1,0 +1,100 @@
+		a:link, a:visited{
+			color: #227186;
+			text-decoration: none;
+		}
+		a:hover{
+			color: #74C6DC;
+			transition: all 0.5s;
+		}
+
+#bgindex {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+#backgroundMobile{
+	display: none;
+}
+#backgroundFull{
+	display: inline;
+}
+
+#wrapperlogin{
+	width: 100%;
+	height: 100%;
+}
+#layoutlogin{
+	width: 100%;
+	height: 600px;
+	padding-top: 6%;
+}
+#login{
+	width: 450px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 6px;
+	box-shadow: 10px 10px 30px;
+}
+h1{
+	color: #FF5900;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin: 0;
+	padding-top: 10%;
+	padding-bottom: 15%;
+}
+.nametkmk{
+	margin-left: 10%;
+	padding: 0;
+	text-align: left;
+	font-weight: 600;
+	position: relative;
+	color: white;
+}
+.tkmk{
+	width: 90%;
+	padding: 18px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 0px;
+	background-color: #C7D6DF;
+	color: gray;
+	outline-color: gray;
+}
+#replytkmk{
+	color: red;
+	width: 100%;
+	font-size: 16px;
+	height: 20px;
+}
+
+#rememberID{
+	color: silver;
+	float: left;
+	margin-left: 10%;
+}
+
+#signupbtn{
+	margin: 50px;
+	margin-bottom: 20px;
+	color: white;
+}
+#loginbtn{
+	width: 30%;
+	height: 7%;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 0.5px;
+}
+#loginbtn:hover{
+	background-color: #51DBFF;
+}
+
